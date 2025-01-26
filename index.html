@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio muscial Thomann</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+        }
+        nav {
+            background-color: blue;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            
+        }
+        nav a { 
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: brown;
+        }
+        header { background-image: url(estudio.jpg) ;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;}
+        #caja-central {
+            text-align: center;
+        }
+        header h1 {
+            color: yellow;
+            text-shadow: 3px 3px 5px black;
+            font-size: 3em;}
+        header h2 {
+            color: white;
+            font-size: 1em;
+        
+        }
+        #quienes-somos {background-color: aqua;}
+        #contenedor-quienes{
+            display: flex;
+            justify-content: space-around;
+            
+        
+        }
+        #contenedor-quienes #izq { width: 45%; }
+        #contenedor-quienes #der { width: 45%;
+        text-align: left;}
+        #contenedor-quienes #izq img {width: 100%;}
+        .titulo {
+            color: rgb(36, 131, 226);
+            text-align: center;
+        }
+        section#quienes-somos { padding: 20px;}
+        section#opiniones {
+            padding: 20px;
+            background-color: antiquewhite;
+        }
+        #clientes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .cliente {
+            width: 30%;
+            text-align: center;
+            background-color: white; 
+        }
+        .cliente img {
+            width: 80%;
+            height: 60%;
+            border-radius: 50%;
+            padding: 5%;
+            }
+            footer {
+                background-color: grey;
+                color: white;
+                padding: 20px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+           
+            footer .caja {
+                width: 33%;
+                padding: 10px;
+            }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="caja-central">
+        <h1>Musichomann</h1>
+        <h2>Estudio de grabación Thomann</h2>
+    </div>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Quienes Somos</a>
+        <a href="#">Donde estamos</a>
+        <a href="#">Contacto</a>
+    </nav>
+    
+    <section id="quienes-somos">
+        <h1 class="titulo">
+            Quienes Somos
+        </h1>
+        <div id="contenedor-quienes">
+            <div id="izq">
+                <img src="grupo.jpg" alt="">
+                
+            </div>
+            <div id="der">
+                <h1>Estarás en las mejores manos</h1>
+                <p>En el estudio de grabación Musichomann tendrás a tu disposicion a los mejores profesionales del pais, para que las grabaciones que quieras realizar tengan la mejor calidad posible y por supuesto todo con la marca de calidad de Thomann &#174; , como ya imaginaras contamos con los últimos medios y tecnologias de Thomann, lo cual quiere decir que la excelencia será la mejor de todo el mercado musical. </p>
+            </div>
+        </div>
+    </section>
+    <section id="opiniones">
+        <h1 class="titulo">
+            Opiniones de nuestros clientes
+        </h1>
+        <div id="clientes">
+            <div class="cliente">
+                <img src="cara1.jpg" alt="">
+                <p>"Experiencia inigualable, sin ninguna duda de lo mejor"</p>
+            </div>
+            <div class="cliente">
+                <img src="cara2.jpg" alt="">
+                <p>"Volveria mil veces"</p>
+            </div>
+            <div class="cliente">
+                <img src="cara3.jpg" alt="">
+                <p>"El mejor sitio para grabar, ya he grabado 3 discos y siempre impecable"</p>
+            </div>
+        
+        </div>
+
+    </section>
+    <footer>
+        
+        <div class="caja">
+            <h2>Enlaces</h2>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <div class="caja">
+            <h2>Estamos en</h2>
+            <p>Ctra Ciudad Real</p>
+            <p>13120 Porzuna</p>
+        </div>
+        <div class="caja">
+            <h2>Email</h2>
+            <p>musichomann@gmail.com</p>
+        
+        </div>
+    </footer>
+    
+</body>
+</html>
